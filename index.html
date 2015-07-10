@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="./index.css">
   <script src="./index.js"></script>
 </head>
-<body>
+<body style="height: 1685px;">
 
 
 
@@ -58,8 +58,6 @@
   </ul>
 </div>
 </div>
-
-<body style="height: 1685px;">
   <!--
     We position the images fixed and therefore need to place them outside of #skrollr-body.
     We will then use data-anchor-target to display the correct image matching the current section (.gap element).
@@ -73,7 +71,7 @@
 
   <div class="parallax-image-wrapper parallax-image-wrapper-100 skrollable skrollable-before" data-anchor-target="#bacons + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)" style="-webkit-transform: translate3d(0px, 200%, 0px); transform: translate3d(0px, 200%, 0px);">
 
-    <div class="parallax-image parallax-image-100 skrollable skrollable-before" style="-webkit-transform: translate3d(0px, -80%, 0px); transform: translate3d(0px, -80%, 0px); background-image: url(./images/back1.jpg);" data-anchor-target="#bacons + .gap" data-bottom-top="transform: translate3d(0px, -80%, 0px);" data-top-bottom="transform: translate3d(0px, 80%, 0px);"></div>
+    <div class="parallax-image parallax-image-100 skrollable skrollable-before" style="-webkit-transform: translate3d(0px, -80%, 0px); transform: translate3d(0px, -80%, 0px); background-image: url(./images/back1.jpg);" data-anchor-target="#bacons + .gap" data-bottom-top="transform: translate3d(0px, -80%, 0px);" data-top-bottom="transform: translate3d(0px, 80%, 0px);"> </div>
   </div>
 
   <div class="parallax-image-wrapper parallax-image-wrapper-50 skrollable skrollable-before" data-anchor-target="#kittens + .gap" data-bottom-top="transform:translate3d(0px, 300%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)" style="-webkit-transform: translate3d(0px, 300%, 0px); transform: translate3d(0px, 300%, 0px);">
@@ -81,22 +79,30 @@
     <div class="parallax-image parallax-image-50 skrollable skrollable-before" style="-webkit-transform: translate3d(0px, -60%, 0px); transform: translate3d(0px, -60%, 0px); background-image: url(http://prinzhorn.github.io/skrollr/examples/images/kitteh3.jpg);" data-anchor-target="#kittens + .gap" data-bottom-top="transform: translate3d(0px, -60%, 0px);" data-top-bottom="transform: translate3d(0px, 60%, 0px);"></div>
   </div>
 
-  <div id="skrollr-body">
-    <div class="header" id="dragons"></div>
-    <div class="gap gap-100" style="background-image:url(images/kitteh1.jpg);"><div class="content" style="position:relative; top:250px; text-align:right;">
-      <p>JEFF SHAPIRO</p>
+  <div id="skrollr-body" style="position:relative; top:-30px;">
+    <div class="header" id="dragons" style="visibility:hidden"></div>
+    <div class="gap gap-100"><div class="content" style="position:relative; top:250px; text-align:right; background-color:yellow;">
+      <p><h1>LOGO/NAME</h1></p>
     </div>
   </div>
-    <div class="content" id="bacons">
-      <p>Landjaeger chicken ham fatback sausage hamburger, tri-tip capicola pastrami pancetta ribeye turducken. Rump shank turkey pig kevin sausage meatloaf tenderloin drumstick short ribs short loin. Prosciutto spare ribs chuck, pork strip steak pork chop swine bacon turkey shoulder andouille. Jowl landjaeger chicken corned beef. Ham hock kielbasa pancetta ground round sausage. Spare ribs porchetta pastrami filet mignon drumstick ball tip. Beef ribs prosciutto kevin, landjaeger shoulder ham hock ham brisket sirloin chuck t-bone drumstick kielbasa pork chop.</p>
-
-      <p>Landjaeger spare ribs chicken ball tip, filet mignon frankfurter ribeye tenderloin corned beef. Strip steak boudin pork loin, chicken turkey ball tip beef ribs ground round shank ham hock. Kevin capicola beef, chuck pork chop shoulder brisket doner meatloaf shank ham hock tenderloin. Chuck ham hock short ribs ground round sausage prosciutto shoulder bacon andouille tri-tip beef biltong filet mignon chicken. Pork belly andouille shank, bacon sausage meatloaf bresaola pork chop short ribs t-bone. Ham hock salami porchetta bacon beef turkey, strip steak kielbasa pancetta brisket meatball t-bone.</p>
-
-      <p>Chicken pancetta capicola chuck, turkey meatball jerky frankfurter kielbasa ball tip bacon ground round. Beef ribs brisket meatloaf short ribs landjaeger shankle spare ribs sausage, pancetta swine sirloin flank. Tail shank chuck pancetta, ham meatloaf short ribs sausage rump turkey kevin pork chop landjaeger. Doner boudin short ribs t-bone, jerky shankle bresaola drumstick. Strip steak shank spare ribs boudin doner short ribs. Boudin prosciutto jowl tenderloin tongue beef ribs, short ribs salami short loin strip steak ham jerky. Shank pancetta beef ribs, corned beef ham hock pork belly drumstick tail bresaola chuck.</p>
+    <div class="content" id="bacons" style="background-color:yellow;">
+      <h3>TRANSITION 1 HERE</h3>
     </div>
-    <div class="gap gap-100" style="background-image:url(images/kitteh2.jpg);"></div>
-    <div class="content content-full" id="kittens">
-      Here be kittens
+    <div class="gap gap-100" style="background-image:url(images/kitteh2.jpg);"><div class="content" style="position:relative; top: 100px; text-align:right; background-color:yellow; text-align:center">
+      <p><h3>ABOUT/BIO HERE</h3>
+        <div class="content" style="width:48%; float:left; position:relative; top: 50px;">
+        <p stlye="text-align:left;">Hi, My name is Jeff and blah blah blah....paginated paragraphs...blah blah blah. Hi, My name is Jeff and blah blah blah....paginated paragraphs...blah blah blah. Hi, My name is Jeff and blah blah blah....paginated paragraphs...blah blah blah. Hi, My name is Jeff and blah blah blah....paginated paragraphs...blah blah blah. Hi, My name is Jeff and blah blah blah....paginated paragraphs...blah blah blah. Hi, My name is Jeff and blah blah blah....paginated paragraphs...blah blah blah. Hi, My name is Jeff and blah blah blah....paginated paragraphs...blah blah blah. </p>
+      </div>
+      <div class="content" style="width:48%; display:inline; float:right; position:relative; top: 70px;">
+        <p stlye="text-align:left;">Pic carousel (or some other media) here</p>
+      </div>
+    </div>
+
+    </div>
+    <div class="content" id="kittens" stlye="position:static">
+      <h3>
+      TRANSITION 2 HERE
+    </h3>
     </div>
     <div class="gap gap-50" style="background-image:url(images/kitteh3.jpg);"></div>
     <div class="content" id="done">
@@ -104,35 +110,6 @@
     </div>
   </div>
 
-  <script type="text/javascript" src="../dist/skrollr.min.js"></script>
-  <script type="text/javascript">
-  skrollr.init({
-    smoothScrolling: false,
-    mobileDeceleration: 0.004
-  });
-  </script>
-
-
-
-</body></html>
-
-
-<!-- <div class="container-fluid" id="back-scene-1"></div>
-
-<div class="container jumbotron" id="info-box-1"  data-0="top:-400px;" data-250="top:-1500px;" style="text-align:right"><h1>JEFF MuthaFuckin Shapiro</h1></div>
-
-<div class="container-fluid" id="info-box-2"><h2 style="text-align:center">Full-Stack Web Application Development</h2></div>
-
-<div class="container-fluid" id="back-scene-2">
-</div> -->
-
-
-
-
-
-  <script type="text/javascript">
-    var s = skrollr.init();
-  </script>
 
   <script type="text/javascript">
   skrollr.init({
@@ -140,5 +117,7 @@
     mobileDeceleration: 0.004
   });
   </script>
+
+
 </body>
 </html>
