@@ -20,6 +20,15 @@ body {
   z-index: -1000;
 }
 
+.transition {
+  height: 150px;
+  position: relative;
+}
+
+.transition-text {
+  position: relative;
+  top: 18%;
+}
 
 
 * {
